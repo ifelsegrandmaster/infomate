@@ -1,0 +1,124 @@
+.profile{
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 20px 0;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.i-account-image{
+    width: 20%;
+}
+
+.profile-info{
+    display: inline;
+    width: 70%;
+    position: absolute;
+    top: 4%;
+    bottom: 0;
+    box-sizing: border-box;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(51, 153, 255, 0.1);
+
+}
+.account-profile{
+    border-bottom: 1px solid rgba(51, 153, 255, 0.5);
+    position: relative;
+}
+.profile-info .keyword{
+    font-weight: bold;
+    font-style: italic;
+    display: inline;
+}
+
+.profile-accounts{
+    margin-top: 3%;
+    border-bottom: 1px solid rgba(51, 153, 255, 0.5);
+    padding-bottom: 3%;
+}
+
+.profile-accounts table{
+    width: 80%;
+    margin: auto;
+}
+
+.profile-accounts table th{
+    text-align: left;
+    color: rgba(51, 153, 255, 0.5);
+}
+.profile-accounts table td{
+    padding: 1% 0;
+}
+
+.profile-info span{
+    display: block;
+    padding-bottom: 2%;
+}
+.profile-info h1{
+    display: inline;
+}
+.profile-modules{
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: solid 1px rgba(51, 153, 255, 0.5);
+    background-color:rgba(51, 153, 255, 0.1);
+    padding: 10px;
+}
+
+.profile-modules:after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.profile-modules-container{
+    margin: auto;
+}
+
+.profile-modules-container h3{
+  margin-top: 3%;
+}
+
+.profile-modules-col{
+    width: 33.33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    border-left: 3px solid #3399ff;
+    color: #3399ff;
+    min-height: 25vh;
+
+}
+
+.far-left{
+    border: none;
+}
+.profile-modules-col p{
+    padding-bottom: 10%;
+}
+
+.profile-modules-col a{
+    color: #58c6ff;
+    text-decoration: none;
+
+}
+
+.profile-modules-col a:hover{
+    text-decoration: underline;
+}
+
+.profile-modules-col svg{
+    display: inline;
+    width: 8%;
+    margin: 0 5px -5px 0;
+}

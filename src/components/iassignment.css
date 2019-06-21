@@ -1,0 +1,71 @@
+.i-assignment-container{
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 20px 0;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.i-assignment-image{
+    width: 15%;
+}
+.i-assignment-header{
+    position: relative;
+    margin: 0px 0px 10px 0px;
+}
+.i-assignment-link{
+    color: #58c6ff;
+    text-decoration: none;
+
+}
+
+.i-assignment-link svg{
+    display: inline;
+    width: 3%;
+    margin: 0 5px -5px 0;
+}
+
+.i-assignment-header h3{
+    padding: 0;
+    display: inline;
+    padding: 20px 0;
+}
+.i-assignment-header svg{
+    position: absolute;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+.clearfix{
+    clear: both;
+}
+.i-assignment-body{
+    padding: 2% 0 0 0;
+    margin-top: 2%;
+    border-top: 1px solid #cccccc;
+}
+.i-textarea{
+    display: block;
+    margin-top: 2%;
+    border-radius: 5px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(230, 230, 230, 0.8);
+    border-color: rgba(51, 153, 255, 0.2);
+    max-width: 90%;
+    min-height: 20vh;
+    min-width: 90%;
+    max-height: 90vh;
+    padding: 5px;
+    font-size: 120%;
+}
+
+@media screen and (max-width: 600px){
+    .i-assignment-image{
+        width: 50%;
+    }
+}

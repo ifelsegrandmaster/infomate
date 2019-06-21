@@ -1,0 +1,72 @@
+
+.container-messages {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 100vh;
+    position: relative;
+}
+
+.panel{
+    display: inline;
+    width: 20%;
+    background-color: rgba(230, 230, 230, 0.7);
+    position: fixed;
+    margin: auto;
+    min-height: 60vh;
+    color: black;
+    border: 1px solid rgba(51, 153, 255, 0.2);
+    margin-left: 10px;
+}
+
+.panel ul{
+    padding: 0;
+    list-style: none;
+}
+
+.panel ul li{
+    padding: 8px 0;
+}
+
+.active-user{
+    background-color: white;
+    color: #49b1ff;
+}
+
+.text{
+    padding: 10px;
+}
+
+.panel h3{
+    display: inline;
+}
+
+.content{
+    display: inline;
+    width: 65%;
+}
+
+.footer-messages {
+
+    padding: 50px;
+    background-color: rgba(51, 153, 255, 0.4);
+    align-content: center;
+
+}
+
+.footer-messages p {
+    text-align: center;
+    color: white;
+}
+
+.space {
+    background-color: transparent;
+    min-height: 10vh;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+}

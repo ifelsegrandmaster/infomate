@@ -1,0 +1,67 @@
+header{
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 0;
+    padding: 10px 0;
+    top: 0;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 0;
+}
+
+.nav-links svg{
+    width: 2%;
+    padding: 0 5px 0 10px;
+    margin: 0;
+    margin-bottom: -5px;
+
+}
+
+.nav-links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li{
+    display: inline;
+    padding: 10px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    padding:  0 10px;
+    margin: 0 10px;
+}
+
+.active{
+    color: #58c6ff;
+    border-bottom: 3px solid #58c6ff;
+
+}
+
+.active svg{
+    fill: #58c6ff;
+    z-index: -1;
+}
+.active-text{
+    color: #58c6ff;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.logo{
+    width: 10%;
+    padding: 0;
+    font-family: 'Lobster Two';
+    font-size: 150%;
+    color: #58c6ff;
+}

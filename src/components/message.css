@@ -1,0 +1,150 @@
+
+.i-message-container {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 20px 0;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+}
+
+.i-message-link {
+    color: #3399ff;
+}
+
+.i-message-link:hover {
+    text-decoration: underline;
+}
+
+.i-message-image-box {
+    width: 40%;
+    position: relative;
+}
+
+.i-message-image {
+    width: 15%;
+}
+
+.i-message {
+    padding: 20px;
+}
+
+
+.i-message-info {
+    position: absolute;
+    margin-left: 10px;
+}
+
+.i-message-name {
+    display: block;
+    padding: 0px 0px 5px 0px;
+    font-weight: bold;
+}
+
+.i-message-occupation {
+    display: block;
+    padding: 0px 0px 5px 0px;
+    font-style: italic;
+}
+
+.i-message-date {
+    display: block;
+    padding: 0px 0px 5px 0px;
+    font-weight: normal;
+}
+
+.i-message-body {
+    padding: 2% 0 0 0;
+    margin-top: 2%;
+}
+
+.i-message-header {
+    position: relative;
+}
+
+.i-message-header h3 {
+    padding: 0;
+    display: inline;
+    padding: 20px 0;
+}
+
+.i-message-header svg {
+    position: absolute;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.i-message-reply-container {
+    margin: 5% auto;
+    width: 100%;
+}
+
+.i-message-reply-input svg {
+    display: inline;
+    width: 3%;
+    margin-bottom: -10px;
+}
+
+.i-message-reply-input input {
+    padding: 10px;
+    width: 80%;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: rgba(51, 153, 255, 0.5) solid 1px;
+    background: rgba(230, 230, 230, 0.8);
+
+}
+
+@media screen and (max-width: 600px) {
+    .i-message-name {
+        display: block;
+        padding: 0px 0px 5px 0px;
+        font-weight: bold;
+    }
+
+    .i-message-occupation {
+        display: block;
+        padding: 0px 0px 5px 0px;
+        font-style: italic;
+    }
+
+    .i-message-date {
+        display: block;
+        padding: 0px 0px 5px 0px;
+        font-weight: normal;
+    }
+
+    .i-message-info {
+        position: relative;
+        margin-left: 10px;
+    }
+
+    .i-message-image {
+        width: 50%;
+    }
+
+    .i-message-container {
+        background-color: #ffffff;
+        padding: 20px;
+        border: 1px solid rgb(230, 230, 230);
+        margin: 20px 0;
+        border-radius: 5px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+}
