@@ -16,7 +16,7 @@ const store = createStore(reducer, composeEnhances(
     applyMiddleware(thunk)
 ));
 
-var inc = "";
+var inc = "run";
 
 const app = (
     <Provider store={store}>
