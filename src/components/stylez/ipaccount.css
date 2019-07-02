@@ -1,6 +1,6 @@
 .profile{
     background-color: #ffffff;
-    padding: 20px;
+    padding: 0px;
     border: 1px solid rgb(230, 230, 230);
     margin: 20px 0;
     border-radius: 5px;
@@ -8,39 +8,54 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    font-weight: 400;
 
 }
 
 .i-account-image{
     width: 20%;
+    position: absolute;
+    right: 2%;
+
 }
 
 .profile-info{
-    display: inline;
-    width: 70%;
-    position: absolute;
-    top: 4%;
-    bottom: 0;
+    width: 100%;
     box-sizing: border-box;
     right: 0;
     padding: 10px;
-    background-color: rgba(51, 153, 255, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+
+
+    font-weight: 400;
+    color: rgba(0,0,0,0.8);
 
 }
 .account-profile{
-    border-bottom: 1px solid rgba(51, 153, 255, 0.5);
+    padding: 0;
+    margin: 0;
+    background-color: #58c6ff;
     position: relative;
+    border-radius: 5px 5px 0px 0px;
 }
 .profile-info .keyword{
     font-weight: bold;
-    font-style: italic;
+    padding: 0 5px;
+    color: black;
     display: inline;
 }
 
 .profile-accounts{
     margin-top: 3%;
-    border-bottom: 1px solid rgba(51, 153, 255, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
     padding-bottom: 3%;
+}
+
+.profile-accounts h3{
+    font-family: "Sitka Text";
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .profile-accounts table{
@@ -50,10 +65,11 @@
 
 .profile-accounts table th{
     text-align: left;
-    color: rgba(51, 153, 255, 0.5);
+    color: #58c6ff;
 }
 .profile-accounts table td{
     padding: 1% 0;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .profile-info span{
@@ -62,6 +78,7 @@
 }
 .profile-info h1{
     display: inline;
+
 }
 .profile-modules{
     box-sizing: border-box;
@@ -69,7 +86,7 @@
     margin: auto;
     margin-top: 5%;
     border-radius: 5px;
-    border: solid 1px rgba(51, 153, 255, 0.5);
+    border: solid 1px #58c6ff;
     background-color:rgba(51, 153, 255, 0.1);
     padding: 10px;
 }
@@ -87,16 +104,18 @@
 
 .profile-modules-container h3{
   margin-top: 3%;
+    font-family: "Sitka Text";
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .profile-modules-col{
     width: 33.33%;
     float: left;
-    padding: 15px;
+    padding: 0px 15px;
     box-sizing: border-box;
-    border-left: 3px solid #3399ff;
+    border-left: 3px solid #58c6ff;
     color: #3399ff;
-    min-height: 25vh;
+    min-height: 35vh;
 
 }
 
@@ -121,4 +140,5 @@
     display: inline;
     width: 8%;
     margin: 0 5px -5px 0;
+    fill: #58c6ff;
 }

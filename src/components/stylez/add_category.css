@@ -1,0 +1,50 @@
+.container-add-category{
+    width: 60%;
+    margin: 5% auto;
+    background-color: white;
+    padding: 10px;
+    font-weight: 400;
+}
+.add-module-content{
+    width: 80%;
+    margin: auto;
+}
+
+.container-add-category h3{
+     width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.container-add-category form{
+    display: block;
+    width: 80%;
+    margin: auto;
+
+}
+.add-module-form input[type="text"]{
+    display: block;
+    padding: 5px;
+    font-family: "Roboto";
+    margin: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.add-module-form input[type="submit"]{
+   display: block;
+    box-sizing: border-box;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: white;
+    background-color: #58c6ff;
+}
+
+.add-module-form textarea{
+   margin: 5px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
