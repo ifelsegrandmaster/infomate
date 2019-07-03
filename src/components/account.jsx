@@ -1,23 +1,39 @@
 import React, {Component} from 'react';
-import './account.css';
+import './stylez/account.css';
 import INofication from './notification';
 import IClass from './class';
+import {connect} from "react-redux";
 import IPAccount from './ipaccount';
+import * as actions from "../store/actions/auth";
+import Navbar from "./Nav";
+
 class IAccount extends Component{
     render() {
         return(
             <React.Fragment>
-            <div className="container">
+                <Navbar current="account"/>
+            <div className="container-account">
                 <div className="space"></div>
-                <IPAccount/>
+                <IPAccount token ={this.props.token}/>
                 <div className="space"></div>
             </div>
-                <div className="footer">
-                    <p>Infomate &copy; 2019</p>
-                </div>
+
             </React.Fragment>
         );
     }
 }
 
-export default IAccount;
+const mapStateToProps = state => {
+    return {
+        token: state.token,
+        isAuthenticated: state.token !==  null,
+    }
+}
+const mapDispatchToProps = dispatch => {
+    return {
+        getNotifications: (token) => dispatch(actions.getNotifications(token)),
+        logout: () =>dispatch(actions.logout()),
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(IAccount);

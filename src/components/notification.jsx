@@ -1,14 +1,16 @@
 import React, {Component} from 'react';
-import './nofication.css';
+import './stylez/nofication.css';
 
 class INotification extends Component {
+    colors = [
+         '#ff0000', '#ffcc00', '#53ff1a']
     render() {
         return (
             <div className="i-notify-container">
                 <div className="i-notify-header">
-                    <h3>Nofication heading</h3>
+                    <h3>{this.props.data.title}</h3>
                     <svg width="15" height="15">
-                        <circle cx="7.5" cy="7.5" r="6" fill={this.props.color}/>
+                        <circle cx="7.5" cy="7.5" r="6" fill={this.colors[this.props.data.color]}/>
                     </svg>
                 </div>
                 <div className="clearfix"></div>
@@ -16,14 +18,16 @@ class INotification extends Component {
 
                     <div className="i-i-notify">
                         <div className="i-notify-image-box">
-                            <img src="./chaula-man.png" className="i-notify-image"/>
+                            <div className="image-wrapper">
+                            <img src={this.props.data.user.profile_pic?this.props.data.user.profile_pic: 'img_avatar.png' } className="i-notify-image"/>
+                            </div>
                             <span className="i-notify-info">
 
                         <span className="i-notify-name">
-                            Patrice Chaula
+                           @{this.props.data.user.username}
                         </span>
                         <span className="i-notify-date">
-                            {new Date().toDateString()}
+                            {this.props.data.pub_date}
                         </span>
                     </span>
                         </div>
@@ -33,9 +37,8 @@ class INotification extends Component {
 
                 <div className="i-notify-body">
                     <p>
-                        This is my nofitication text. This
-                        is where all the content goes. Description goes here If you want to know more. You can <a
-                        className="i-notify-link">know more.</a></p>
+                        {this.props.data.summary} <a
+                        className="i-notify-link"> ....more.</a></p>
                 </div>
             </div>
         )

@@ -1,18 +1,29 @@
 import React, {Component} from 'react';
-import "./login.css";
+import "./stylez/login.css";
 import {connect} from "react-redux";
 import * as actions from '../store/actions/auth';
-import 'bootstrap/dist/css/bootstrap.css';
+import {Link} from "react-router-dom";
 
 class ILogin extends Component {
 
     submitData = (e) => {
         e.preventDefault();
-        this.props.onAuth(document.querySelector('#reg_number').value,
+        this.props.onAuth(document.querySelector('#username').value,
             document.querySelector('#password'
             ).value);
-        this.props.history.push('/');
+        if(this.props.error !== null){
+            this.props.history.push('/login');
 
+        } else {
+            this.props.history.push('/class');
+        }
+
+
+
+    }
+
+    preventDefault = (e) =>{
+        e.preventDefault();
     }
 
     render() {
@@ -25,58 +36,48 @@ class ILogin extends Component {
             );
         }
         return (
-            <div>
-            <div className="limiter">
-                <div className="container-login100">
-                    <div className="wrap-login100">
-                        <form className="login100-form validate-form">
-					<span className="login100-form-title p-b-26">
-						Welcome
-					</span>
-                            <span className="login100-form-title p-b-48">
-						<i className="zmdi zmdi-font"></i>
-					</span>
+            <div className="login-parent-container">
+           <div className="login-container">
+               <div className="login-content">
+                   <div className="signup-header">
+                       <img src='./img_avatar.png'/>
+                       <p className="login-heading">Sign in to Infomate</p>
+                   </div>
+                   <div className="login-body">
+                   <form method="post" onSubmit={this.submitData}>
 
-                            <div className="wrap-input100 validate-input" data-validate="Valid email is: a@b.c">
-                                <input className="input100" type="text" name="email"/>
-                                    <span className="focus-input100" data-placeholder="Email"></span>
-                            </div>
+                       <div className="form-controls">
+                           <label htmlFor="username">Username</label>
+                           <input type="text"
+                                  name="username"
+                                  id="username"
+                                  onFocus={this.preventDefault}
+                                  required
+                                  autoComplete="off"
+                                  
+                                
+                           />
+                           <label htmlFor="password" >Password
+                               <span className="forgot">
+                               Forgot Password?
+                           </span></label>
+                           <input type="password" name="password" id="password" required />
+                           <div>
+                           <input type="submit" value="Sign in"/>
+                           </div>
+                       </div>
 
-                            <div className="wrap-input100 validate-input" data-validate="Enter password">
-						<span className="btn-show-pass">
-							<i className="zmdi zmdi-eye"></i>
-						</span>
-                                <input className="input100" type="password" name="pass"/>
-                                <span className="focus-input100" data-placeholder="Password"></span>
-                            </div>
-
-                            <div className="container-login100-form-btn">
-                                <div className="wrap-login100-form-btn">
-                                    <div className="login100-form-bgbtn"></div>
-                                    <button className="login100-form-btn">
-                                        Login
-                                    </button>
-                                </div>
-                            </div>
-
-                            <div className="text-center p-t-115">
-						<span className="txt1">
-							Don’t have an account?
-						</span>
-
-                                <a className="txt2" href="#">
-                                    Sign Up
-                                </a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-
-        <div id="dropDownSelect1"></div>
-
-            </div>
+                   </form>
+                   </div>
+                   <div className="login-footer">
+                       <div>New to Infomate? <span className="forgot"><Link to="/signup">Sign up</Link></span></div>
+                   </div>
+               </div>
+               <div className="login-login-footer">
+                   <p>Infomate &copy; 2019</p>
+               </div>
+           </div>
+           </div>
     );
     }
 }
@@ -84,7 +85,8 @@ class ILogin extends Component {
 const mapStateToProps = (state) => {
     return {
         loading: state.loading,
-        error: state.error
+        error: state.error,
+        token: state.token
     }
 }
 

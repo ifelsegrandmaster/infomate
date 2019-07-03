@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './message.css'
+import './stylez/message.css'
 
 class IMessage extends Component {
     render() {

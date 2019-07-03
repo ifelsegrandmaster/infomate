@@ -1,5 +1,18 @@
 .App {
   padding: 0;
   display: block;
+  font-family: "Roboto";
+  font-weight: 400;
 }
+
+.container-infomate{
+  position: relative;
+  min-height: 100vh;
+}
+
+.container-infomate:after{
+  content: none;
+}
+
+
 

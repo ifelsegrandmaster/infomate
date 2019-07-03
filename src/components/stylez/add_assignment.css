@@ -1,4 +1,4 @@
-.container-add-post {
+.container-add-assignment {
     width: 50%;
     margin: 5% auto;
     background: linear-gradient(white, white);
@@ -8,13 +8,13 @@
     border-radius: 5px;
 }
 
-.add-post-content {
+.add-assignment-content {
     width: 90%;
     margin: auto;
 
 }
 
-.container-add-post h3 {
+.container-add-assignment h3 {
     width: 90%;
     margin: auto;
     padding: 10px;
@@ -23,14 +23,14 @@
 
 }
 
-.container-add-post form {
+.container-add-assignment form {
     display: block;
     width: 90%;
     margin: auto;
 
 }
 
-.add-post-form input[type="text"] {
+.add-assignment-form input[type="text"] {
     display: block;
     padding: 10px;
     font-family: "Roboto";
@@ -43,7 +43,12 @@
     border-bottom: 1px solid rgb(186, 186, 186);
 }
 
-.add-post-form input[type="number"] {
+.add-assignment-form input[type="file"]{
+    padding: 10px 0px;
+    font-display: "Roboto";
+}
+
+.add-assignment-form input[type="date"] {
     padding: 10px;
     font-family: "Roboto";
     display: inline;
@@ -53,12 +58,13 @@
     border: none;
     border-bottom: 1px solid rgb(186, 186, 186);
     background-color: transparent;
+    box-sizing: border-box;
 
 }
-.add-post-form-selects{
+.add-assignment-form-selects{
     display: flex;
 }
-.add-post-form-selects div{
+.add-assignment-form-selects div{
     display: inline-block;
     box-sizing: border-box;
     flex: 1;
@@ -69,28 +75,29 @@
 .priority-container{
     margin-left: 5px;
 }
-.add-post-form-selects label{
+.add-assignment-form-selects label{
     display: inline;
 }
 
-.add-post-form label{
+.add-assignment-form label{
     display: block;
     margin: 5px;
     padding: 5px 0;
 }
 
-.add-post-form select{
+.add-assignment-form select{
     display: inline;
     padding: 10px;
     width: 100%;
     margin: 5px;
+    box-sizing: border-box;
 
     border: none;
     border-bottom: 1px solid rgb(186, 186, 186);
     background-color: transparent;
 }
 
-.add-post-form input[type="submit"] {
+.add-assignment-form input[type="submit"] {
     display: block;
     box-sizing: border-box;
     margin: 5px;
@@ -103,11 +110,11 @@
     border-radius: 20px;
 }
 
-.add-post-form input[type="submit"]:hover{
+.add-assignment-form input[type="submit"]:hover{
     background: linear-gradient(#3399ff, #58c6ff);
 }
 
-.add-post-form textarea {
+.add-assignment-form textarea {
     margin: 5px;
     display: block;
     width: 100%;
@@ -115,4 +122,5 @@
     background-color: transparent;
     border: none;
     border-bottom: 1px solid rgb(186, 186, 186);
+    font-family: "Roboto";
 }

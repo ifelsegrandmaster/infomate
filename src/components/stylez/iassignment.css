@@ -9,7 +9,8 @@
 }
 
 .i-assignment-image{
-    width: 15%;
+    width: 10%;
+    border-radius: 50%;
 }
 .i-assignment-header{
     position: relative;
@@ -58,10 +59,9 @@
     margin-left: auto;
     background-color: rgba(230, 230, 230, 0.8);
     border-color: rgba(51, 153, 255, 0.2);
+    min-height: 30vh;
     max-width: 90%;
-    min-height: 20vh;
     min-width: 90%;
-    max-height: 90vh;
     padding: 5px;
     font-size: 120%;
     line-height: 1.5em;
