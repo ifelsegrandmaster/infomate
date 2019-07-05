@@ -11,30 +11,19 @@ class ILogin extends Component {
         this.props.onAuth(document.querySelector('#username').value,
             document.querySelector('#password'
             ).value);
-        if(this.props.error !== null){
-            this.props.history.push('/login');
+       
+     }
 
-        } else {
-            this.props.history.push('/class');
+    componentWillReceiveProps(newProps, newState){
+        if(newProps.token){
+            window.location.pathname = "/class"
         }
-
-
-
-    }
-
-    preventDefault = (e) =>{
-        e.preventDefault();
     }
 
     render() {
 
-        let errorMessage = null;
+        
 
-        if (this.props.error) {
-            errorMessage = (
-                <p>{this.props.error.message}</p>
-            );
-        }
         return (
             <div className="login-parent-container">
            <div className="login-container">

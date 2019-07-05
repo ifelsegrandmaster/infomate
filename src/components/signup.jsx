@@ -14,23 +14,21 @@ class ISignup extends Component {
             document.querySelector('#password1').value,
             document.querySelector('#password2').value
             );
-        this.props.history.push('/class');
+        
 
     }
 
-    preventDefault = (e) =>{
-        e.preventDefault();
+    componentWillReceiveProps(newProps, newState){
+        if(newProps.token){
+            window.location.pathname = "/class"
+        }
     }
 
     render() {
 
-        let errorMessage = null;
+        
 
-        if (this.props.error) {
-            errorMessage = (
-                <p>{this.props.error.message}</p>
-            );
-        }
+       
         return (
             <div className="signup-container">
                 <div className="signup-content">
@@ -95,7 +93,8 @@ class ISignup extends Component {
 const mapStateToProps = (state) => {
     return {
         loading: state.loading,
-        error: state.error
+        error: state.error,
+        token: state.token,
     }
 }
 

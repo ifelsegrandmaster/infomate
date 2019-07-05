@@ -16,6 +16,8 @@ import './stylez/infomate.css';
 import AddCategory from './add_category';
 import AddPost from './add_post';
 import AddAssignment from './add_assignment';
+import NotificationDetailView from './notification_detail_view';
+import IDocument from './Document';
 
 
 class Infomate extends Component {
@@ -50,6 +52,8 @@ class Infomate extends Component {
                             <Route exact path="/login" component={ILogin}/>
                             <Route exact path="/signup" component={ISignup}/>
                             <Route exact path="/addassignment" component={AddAssignment}/>
+                            <Route exact path="/notification" component={NotificationDetailView}/>
+                            <Route exact path="/document" component={IDocument}/>
 
 
                         </Switch>

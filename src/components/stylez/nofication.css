@@ -94,6 +94,8 @@
     border-top: 1px solid #cccccc;
     line-height: 1.5em;
     font-family:'Sitka Text';
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 110%;
 }
 
 .i-notify-header{

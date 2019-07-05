@@ -131,7 +131,7 @@ class Content extends Component {
 class IClass extends Component {
     signOut = () => {
         this.props.logout();
-        this.props.history.push('/login');
+        window.location.pathname = "/login"
 
     }
 

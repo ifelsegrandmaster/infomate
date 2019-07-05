@@ -1,0 +1,63 @@
+.container-notification-detail-view {
+    width: 80%;
+    margin: 5% auto;
+    background: transparent;
+    padding: 10px;
+    font-weight: 400;
+   
+    border-radius: 5px;
+    display: flex;
+}
+
+.i-notification-body{
+    padding: 2% 0 0 0;
+   /*margin-top: 2%;*/
+    
+    line-height: 1.5em;
+    font-family:'Sitka Text';
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 110%;
+}
+
+.notification-detail-content-wrapper{
+    width: 70%;
+    display: inline-block;
+    box-sizing: border-box;
+    
+    
+    margin: 0;
+    
+}
+.notification-detail-content{
+    background-color: white;
+    width: 97%;
+    border: 1px solid rgb(230, 230, 230);
+    padding:  10px 15px;
+    box-sizing: border-box;
+}
+
+.i-notification-header h3{
+    font-family: "Sitka Text";
+    color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.i-notification-heading{
+    font-weight: 500;
+    background-color: rgba(230, 230, 230, 0.7);
+    color: #58c6ff;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.notification-detail-related{
+   width: 30%;
+   display: inline-block;
+   box-sizing: border-box;
+   margin: 0;
+   padding:  0 10px;
+   
+
+}
+
