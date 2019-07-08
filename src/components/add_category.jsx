@@ -56,7 +56,7 @@ class Content extends Component{
 class AddCategory extends Component{
 
     onFinished = () =>{
-        this.props.history.push('/class')
+        window.location.pathname = '/class';
     }
 
     render() {

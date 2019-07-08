@@ -24,7 +24,7 @@
     width: 10%;
     display: inline-block;
     box-sizing: border-box;
-    min-height: 40px;
+    min-height: 30px;
 }
 .i-notify-image-box{
     width: 100%;
@@ -39,7 +39,7 @@
 }
 
 .i-notify-image{
-    width: 100%;
+    width: 80%;
     border-radius: 50%;
     display: inline-block;
     box-sizing: border-box;
@@ -69,10 +69,21 @@
     margin-top: -5px;
 }
 .i-notify-name{
-  display: block;
+    display: block;
     padding: 0px 0px 5px 0px;
-    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: "Bitter", serif;
+    font-size: 105%;
+    
+}
+.tags .tag{
     color: #58c6ff;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.2);
+    background: #58c6ff;
+    width: fit-content;
+    padding: 0 5px;
+    border-radius: 5px;
     
 }
 .i-notify-name:hover{
@@ -87,15 +98,26 @@
     display: block;
     padding: 0px 0px 5px 0px;
     font-weight: normal;
+    color: rgba(143, 131, 131, 0.81);
 }
 .i-notify-body{
-    padding: 2% 0 0 0;
+    padding: 0 0 0 0;
    /*margin-top: 2%;*/
-    border-top: 1px solid #cccccc;
-    line-height: 1.5em;
-    font-family:'Sitka Text';
+
+    padding: 5px 0px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    line-height: 2.0em;
+    font-family:'Bitter', serif;
     color: rgba(0, 0, 0, 0.8);
-    font-size: 110%;
+    font-size: 105%;
+}
+.i-notify-container a{
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+.i-notify-container a:hover{
+    text-decoration: underline;
 }
 
 .i-notify-header{

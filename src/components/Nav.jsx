@@ -1,8 +1,7 @@
 import React, {Component} from 'react';
 import './stylez/Nav.css';
 import {Link, withRouter} from "react-router-dom";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faCoffee} from '@fortawesome/free-solid-svg-icons'
+
 
 class Navbar extends Component {
 
@@ -77,7 +76,7 @@ return (
                 <Link to="/messages">
 
 
-                <span className="" name="span">Messages
+                <span className="" name="span">Chat
                 </span></Link>
             </li>
             <li>

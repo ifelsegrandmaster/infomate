@@ -2,55 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81e4851d-c140-4e0b-830e-b0de8152c4cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/group.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img_avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img_avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/add_category.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/add_post.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/signup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stylez/Nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stylez/add_category.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stylez/add_post.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stylez/class.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stylez/infomate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stylez/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stylez/messages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stylez/signup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ILink.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Infomate.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Infomate.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Nav.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/account.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/account.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/account.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/account.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/assignments.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/assignments.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/assignments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/assignments.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/class.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/class.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/class.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/iassignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/add_assignment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/add_assignment.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/add_category.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/add_category.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/add_post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/add_post.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/iassignment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iassignment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/infomate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ipaccount.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/ipaccount.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ipaccount.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ipaccount.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/message.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/message.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/message.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/message.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messages-panel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/messages-panel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messages-panel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messages-panel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messages.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nofication.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/nofication.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/notification.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/notification.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/actionTypes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stylez/add_category.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/add_category.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stylez/add_post.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/add_post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stylez/iassignment.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/iassignment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stylez/nofication.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stylez/nofication.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,22 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/class.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2052">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/stylez/nofication.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2356">
-              <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+              <caret line="178" column="1" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -87,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/stylez/add_category.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="6" selection-start-line="31" selection-start-column="27" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="375">
+              <caret line="32" column="6" selection-start-line="31" selection-start-column="27" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -96,8 +48,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/iassignment.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/add_assignment.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="91" column="69" lean-forward="true" selection-start-line="91" selection-start-column="69" selection-end-line="91" selection-end-column="69" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -123,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/stylez/Nav.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2736">
-              <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
+            <state relative-caret-position="128">
+              <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -154,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/stylez/iassignment.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="41" />
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -180,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/reducers/postReducer.js" />
         <option value="$PROJECT_DIR$/src/actions/postActions.js" />
         <option value="$PROJECT_DIR$/src/components/ILink.jsx" />
         <option value="$PROJECT_DIR$/src/components/message.jsx" />
@@ -221,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/components/class.css" />
         <option value="$PROJECT_DIR$/src/components/Infomate.jsx" />
         <option value="$PROJECT_DIR$/src/components/add_post.jsx" />
-        <option value="$PROJECT_DIR$/src/components/iassignment.jsx" />
         <option value="$PROJECT_DIR$/src/components/class.jsx" />
         <option value="$PROJECT_DIR$/src/components/stylez/signup.css" />
         <option value="$PROJECT_DIR$/src/components/stylez/login.css" />
@@ -231,6 +193,8 @@
         <option value="$PROJECT_DIR$/src/components/stylez/infomate.css" />
         <option value="$PROJECT_DIR$/src/components/stylez/ipaccount.css" />
         <option value="$PROJECT_DIR$/src/components/stylez/Nav.css" />
+        <option value="$PROJECT_DIR$/src/components/iassignment.jsx" />
+        <option value="$PROJECT_DIR$/src/components/add_assignment.jsx" />
       </list>
     </option>
   </component>
@@ -251,7 +215,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
@@ -342,16 +327,18 @@
       <workItem from="1561452189553" duration="945000" />
       <workItem from="1561642485775" duration="6846000" />
       <workItem from="1561770952035" duration="44776000" />
+      <workItem from="1562581181185" duration="1902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286846000" />
+    <option name="totallyTimeSpent" value="288748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.16641453" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.16868381" />
       <window_info id="Structure" order="1" sideWeight="0.50119907" side_tool="true" weight="0.24962178" />
       <window_info id="npm" order="2" sideWeight="0.50119907" side_tool="true" weight="0.24962178" />
       <window_info id="Favorites" order="3" sideWeight="0.50080514" side_tool="true" weight="0.24962178" />
@@ -401,7 +388,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/chaula-man.jpg" />
     <entry file="file://$PROJECT_DIR$/public/chaula-man.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -711,7 +697,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/class.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
+        <state relative-caret-position="1881">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -722,24 +708,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/stylez/nofication.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2356">
-          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/stylez/add_category.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="6" selection-start-line="31" selection-start-column="27" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/iassignment.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+          <caret line="178" column="1" selection-start-line="178" selection-start-column="1" selection-end-line="178" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -774,14 +743,41 @@
     <entry file="file://$PROJECT_DIR$/src/components/stylez/iassignment.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="41" />
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/stylez/Nav.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2736">
-          <caret line="144" column="1" lean-forward="true" selection-start-line="144" selection-start-column="1" selection-end-line="144" selection-end-column="1" />
+        <state relative-caret-position="128">
+          <caret line="81" column="19" lean-forward="true" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/stylez/add_category.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="6" selection-start-line="31" selection-start-column="27" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/iassignment.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/add_assignment.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="91" column="69" lean-forward="true" selection-start-line="91" selection-start-column="69" selection-end-line="91" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -15,7 +15,7 @@
 .i-assignment-header{
     position: relative;
     margin: 0px 0px 10px 0px;
-    font-family: "Sitka Text";
+    
 }
 .i-assignment-link{
     color: #58c6ff;
@@ -47,8 +47,23 @@
 .i-assignment-body{
     padding: 2% 0 0 0;
     margin-top: 2%;
-    border-top: 1px solid #cccccc;
-    font-family: "Sitka Text";
+    font-family: "Bitter", serif;
+    line-height: 2.0em;
+}
+
+.assignment-notes{
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 2em;
+}
+
+ .due-date{
+     margin: 0 10px;
+     color: rgba(0, 0, 0, 0.8);
+}
+
+.due-date-value{
+  padding: 0 5px;
+  font-style: italic;
 }
 .i-textarea{
     display: block;

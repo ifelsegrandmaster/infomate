@@ -102,7 +102,7 @@ class Content extends Component {
 class AddPost extends Component {
 
     onFinished = () => {
-        this.props.history.replace('/class')
+        window.location.pathname = "/class";
     }
 
     render() {

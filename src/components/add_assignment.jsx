@@ -3,6 +3,7 @@ import './stylez/add_assignment.css'
 import Navbar from "./Nav";
 import axios from "axios";
 import {connect} from "react-redux";
+import { Editor } from '@tinymce/tinymce-react';
 
 
 class Content extends Component {
@@ -99,7 +100,7 @@ class Content extends Component {
 class AddAssignment extends Component {
 
     onFinished = () => {
-        this.props.history.replace('/class')
+        window.location.pathname = '/assignments';
     }
 
     render() {

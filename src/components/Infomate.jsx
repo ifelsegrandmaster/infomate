@@ -2,14 +2,13 @@ import React, {Component} from 'react';
 import IClass from './class';
 import IAssignment from './assignments';
 import {connect} from "react-redux";
-import Navbar from './Nav';
+
 import IAccount from './account';
 import ILogin from './login';
-import {Link, withRouter} from "react-router-dom";
+
 import IMessages from './messages';
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faScrewdriver} from '@fortawesome/free-solid-svg-icons';
+
 import * as actions from "../store/actions/auth";
 import ISignup from './signup';
 import './stylez/infomate.css';

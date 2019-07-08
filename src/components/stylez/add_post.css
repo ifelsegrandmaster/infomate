@@ -103,6 +103,8 @@
     border-radius: 20px;
 }
 
+
+
 .add-post-form input[type="submit"]:hover{
     background: linear-gradient(#3399ff, #58c6ff);
 }

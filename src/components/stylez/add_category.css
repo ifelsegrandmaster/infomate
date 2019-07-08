@@ -30,28 +30,37 @@
     margin: 5px;
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid rgb(186, 186, 186);
-    border-radius: 5px;
+    background-color: transparent;
+
+    border: none;
+    border-bottom: 1px solid rgb(186, 186, 186);
 }
 
 
 .add-module-form input[type="submit"]{
-   display: block;
+    display: block;
     box-sizing: border-box;
     margin: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 5px;
+    padding: 10px;
     color: white;
-    background-color: #58c6ff;
+    background: linear-gradient(#58c6ff, #3399ff );
+    border: 1px solid #58c6ff;
+    border-radius: 20px;
 
 }
 
+.add-module-form input[type="submit"]:hover{
+    background: linear-gradient(#3399ff, #58c6ff);
+}
+
 .add-module-form textarea{
-   margin: 5px;
+    margin: 5px;
     display: block;
     width: 100%;
     box-sizing: border-box;
-    border: 1px solid rgb(186, 186, 186);
-    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(186, 186, 186);
 }

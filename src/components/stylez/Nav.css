@@ -25,6 +25,7 @@ header{
     padding: 15px 5px;
     margin: 0;
     font-family: "Roboto";
+    font-size: 105%;
     font-weight: 400;
     color:rgba(0, 0, 0, 0.7);
 }
