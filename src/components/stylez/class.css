@@ -12,18 +12,22 @@
     padding: 25px;
     margin-top: 0;
     width: 15%;
+   
     box-sizing: border-box;
 }
 
 .container-class .notifications {
     width: 70%;
     box-sizing: border-box;
+    margin-top: 0;
 }
 
 .container-class .actions {
     padding: 25px;
     margin-top: 0;
     width: 15%;
+    
+    
 
 
 }
@@ -31,25 +35,35 @@
 .feed-content {
     background-color: rgba(230, 230, 230, 0);
     padding: 10px;
-    border: solid 1px rgba(230, 230, 230, 0);
-    width: 80%;
+    border: solid 1px rgba(230, 230, 230, 0.8);
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
 }
 
 .feed-content p {
     padding: 5px;
+    margin: 0;
+    position: absolute;
     width: 100%;
     display: inline-block;
     border-radius: 5px;
     margin: auto;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
 }
 
 .feed-content ul {
     list-style: none;
-    margin: 0;
+    margin-top:5px;
     padding: 10px 0;
     color: rgba(0, 0, 0, 0.9);
 }
-
+.feed-content ul li{
+    position: relative;
+}
 .u-read-dot {
     background-color: #58c6ff;
     position: absolute;
@@ -58,7 +72,7 @@
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    top: 0;
+    top: 10px;
     left: 0;
     border: 1px solid #fafafa;
 }
@@ -68,7 +82,8 @@
 }
 
 .content-text {
-    padding: 10px 0;
+    padding: 10px 10px;
+    
 }
 
 .feed-content li {
@@ -104,7 +119,7 @@
 
 .actions-content p {
     padding: 5px;
-    margin: auto;
+    
     display: inline-block;
     width: 100%;
     border-radius: 5px;

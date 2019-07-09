@@ -5,11 +5,13 @@ import IMessagePanel from './messages-panel';
 import {Link} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons'
+import Navbar from "./Nav";
 
 class IMessages extends Component {
     render() {
         return (
             <React.Fragment>
+                <Navbar current = "messages"/>
                 <div className="container-messages">
                     <div className="space"></div>
                     <div className="messages-row">
